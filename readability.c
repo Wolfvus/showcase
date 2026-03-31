@@ -8,7 +8,7 @@ int letter_count(string text);
 int word_count(string text);
 int sentences_count(string text);
 
-int main(void)s
+int main(void)
 {
     string text = get_string("Text: ");
     float letter_score = letter_count(text);
